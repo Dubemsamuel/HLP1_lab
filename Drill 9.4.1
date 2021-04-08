@@ -10,9 +10,9 @@ struct Date
 void init_day(Date& dd, int y, int m, int d)
 {
 	if (m < 1 || m > 12)
-		error("Invalid month!");
+		error("month is invalid!");
 	if (d < 1 || d > 31)
-		error("unacceptable day!");
+		error("day is unacceptable!");
 	dd.y = y;
 	dd.m = m;
 	dd.d = d;
