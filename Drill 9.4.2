@@ -10,9 +10,9 @@ struct Date
 Date::Date(int yy, int mm, int dd) :y{ yy }, m{ mm }, d{ dd }
 {
 	if (m < 1 || m > 12)
-		error("Invalid month!");
+		error("month is invalid!");
 	if (d < 1 || d > 31)
-		error("Unacceptable day!");
+		error("day is unacceptable!");
 }
 
 void Date::add_day(int n)
