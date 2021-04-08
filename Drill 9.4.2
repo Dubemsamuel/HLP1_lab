@@ -12,7 +12,7 @@ Date::Date(int yy, int mm, int dd) :y{ yy }, m{ mm }, d{ dd }
 	if (m < 1 || m > 12)
 		error("Invalid month!");
 	if (d < 1 || d > 31)
-		error("Invalid day!");
+		error("Unacceptable day!");
 }
 
 void Date::add_day(int n)
