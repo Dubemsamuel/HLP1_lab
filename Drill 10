@@ -57,6 +57,8 @@ try {
 	cout << "Print out the original points:" << endl;
 	for (auto e : original_points)
 		cout << e << " ";
+		
+	//10.7)Comparison of Original points, and Processed points
 	if (original_points.size() != processed_points.size())
 		cout << "Something's wrong!\n";
 }
